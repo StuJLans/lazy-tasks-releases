@@ -8,5 +8,31 @@
 
         <!-- New releases go here (newest first) -->
 
+        <item>
+            <title>Version 1.0.0</title>
+            <pubDate>Wed, 19 Feb 2026 21:38:00 +0000</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Lazy Tasks 1.0.0</h2>
+                <p>Initial release!</p>
+                <ul>
+                    <li>Create, organize, and launch AI agent shortcuts</li>
+                    <li>Groups and stacks for organization</li>
+                    <li>Live agent tracking with terminal output</li>
+                    <li>Menu bar quick-access</li>
+                    <li>Shell alias sync</li>
+                    <li>8 built-in themes</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v1.0.0/LazyTasks-1.0.0.dmg"
+                sparkle:edSignature="TgI5mPBrldpmzbiWozzoUyvZ9M418eKnHejsD61Qm+NOJcBCAfmr4QVmkATBBEAnIKfRzyKTsV3GvV1TLZhfDg=="
+                length="5204267"
+                type="application/octet-stream"
+            />
+        </item>
+
     </channel>
 </rss>

@@ -9,6 +9,28 @@
         <!-- New releases go here (newest first) -->
 
         <item>
+            <title>Version 1.3.0</title>
+            <pubDate>Thu, 20 Feb 2026 10:17:00 +0000</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Lazy Tasks 1.3.0</h2>
+                <ul>
+                    <li>License key now persists across app restarts</li>
+                    <li>Machine count updates immediately after activation</li>
+                    <li>Auto-update checks now fully functional</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v1.3.0/LazyTasks-1.3.0.dmg"
+                sparkle:edSignature="lgdRcw59dY5hiSY7VwRIiwmeKmXToHQKiMaiaguEmSCmzc5QC/Izp9oK2YyniuuEn+4+fKcv2WuVX4a/3kQBAw=="
+                length="5634983"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.2.0</title>
             <pubDate>Thu, 20 Feb 2026 10:00:00 +0000</pubDate>
             <sparkle:version>3</sparkle:version>

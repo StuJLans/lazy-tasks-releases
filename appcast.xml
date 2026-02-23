@@ -9,6 +9,28 @@
         <!-- New releases go here (newest first) -->
 
         <item>
+            <title>Version 1.4.0</title>
+            <pubDate>Sun, 23 Feb 2026 12:00:00 +0000</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Lazy Tasks 1.4.0</h2>
+                <ul>
+                    <li>Auto-approve toggle for agent commands (Claude, Codex, Gemini, OpenCode, Droid)</li>
+                    <li>Each agent's skip-permissions flag can be toggled on/off per shortcut</li>
+                    <li>Backward compatible — existing shortcuts work without changes</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v1.4.0/LazyTasks-1.4.0.dmg"
+                sparkle:edSignature="XJEIbFrxI+3DhWdyKSvB9x6rkLXpcOJrpsYBEBnPhoqpqemYKaD5WHwTZwEOVY+EPCvA22o5YYirYVGxP7QZCw=="
+                length="5324422"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.3.0</title>
             <pubDate>Thu, 20 Feb 2026 10:17:00 +0000</pubDate>
             <sparkle:version>4</sparkle:version>

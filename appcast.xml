@@ -9,6 +9,30 @@
         <!-- New releases go here (newest first) -->
 
         <item>
+            <title>Version 1.5.0</title>
+            <pubDate>Sat, 01 Mar 2026 20:30:00 +0000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Lazy Tasks 1.5.0</h2>
+                <ul>
+                    <li>Operator Mode: Live Task Control — operator AI can now create tasks, launch agents, mark tasks in-progress/completed, all processed instantly via file watcher</li>
+                    <li>Live tasks.json sync — task state auto-updates within ~1s for operator visibility</li>
+                    <li>Batch operator actions — combine create, launch, start, complete in a single write</li>
+                    <li>Action result confirmation — actions-result.json written after processing</li>
+                    <li>Toast notifications for operator actions</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v1.5.0/LazyTasks-1.5.0.dmg"
+                sparkle:edSignature="fdoF9MK7XgihvVd+p3Fvlzg8qfXZJR0Az+BQhmwHVXsb7ldxXZKDyOsYMBd/AROONIqdCBJpf+Yst+2cvGlXCw=="
+                length="5647966"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <item>
             <title>Version 1.4.0</title>
             <pubDate>Sun, 23 Feb 2026 12:00:00 +0000</pubDate>
             <sparkle:version>5</sparkle:version>

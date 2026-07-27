@@ -1,17 +1,17 @@
-# Lazy Tasks Releases
+# LazyTasks Releases
 
-Download the latest version of **Lazy Tasks** — a native macOS app for managing and launching AI agent terminal shortcuts.
+Download the latest version of **LazyTasks** — the GitHub-native workbench for AI agents on your Mac. Your projects live on GitHub, your tasks are issues, agents work in clean ephemeral workspaces, and every session ends committed, pushed, and PR'd.
 
 ## Download
 
-Check the [Releases](https://github.com/StuJLans/lazy-tasks-releases/releases) page for the latest DMG.
+**[Download LazyTasks 2.0](https://github.com/StuJLans/lazy-tasks-releases/releases/latest)** — requires macOS 14 or later.
+
+Open the DMG and drag LazyTasks to Applications. The app is signed and notarized by Apple.
 
 ## Auto-Updates
 
-Lazy Tasks includes automatic updates via Sparkle. Once installed, the app will check for updates automatically and notify you when a new version is available.
-
-You can also check manually: **Lazy Tasks → Settings → General → Check for Updates**
+LazyTasks keeps itself up to date via Sparkle. It checks automatically, or you can check any time from **Settings → Updates → Check now**.
 
 ## Appcast
 
-The `appcast.xml` file in this repository is the Sparkle update feed used by the app.
+`appcast-v2.xml` is the Sparkle update feed for LazyTasks 2. (`appcast.xml` is the legacy feed for Lazy Tasks 1.x.)

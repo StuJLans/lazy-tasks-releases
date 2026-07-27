@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>LazyTasks v2</title>
+        <item>
+            <title>Version 2.0.0</title>
+            <pubDate>Mon, 27 Jul 2026 03:49:44 +0000</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.0.0/LazyTasks-2.0.0.dmg"
+                sparkle:edSignature="/1AzwblZIj3+SfnHdpWsT/VBs7KNaGlB7tzw9bbbXuUhq+utNdsoOGUR9yHvHte902ifyxli0fHhz4u3qj56Cw=="
+                length="2118499"
+                type="application/octet-stream"
+            />
+        </item>
+    </channel>
+</rss>

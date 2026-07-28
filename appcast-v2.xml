@@ -3,6 +3,30 @@
     <channel>
         <title>LazyTasks v2</title>
         <item>
+            <title>Version 2.1.3</title>
+            <pubDate>Tue, 28 Jul 2026 14:12:06 +0000</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>2.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>LazyTasks 2.1.3</h2>
+<ul>
+    <li><b>Per-project secrets</b> — projects can hold secret variables (API keys, admin credentials) so agents in fresh workspaces can run the app they're working on. Add keys via the <code>SECRETS</code> badge or import a <code>.env</code> from the clipboard. Values are write-only and never leave this machine; key names sync so a second Mac shows what still needs entering.</li>
+    <li><b>Per-project Cloudflare accounts</b> — assign an account once per project and every session runs wrangler as that account. Profiles share the <code>~/.cf-profiles</code> convention; tokens never leave the machine.</li>
+    <li><b>Issue editing + self-assign</b> — edit issues right from LazyTasks, and new issues assign to you by default. Description fields are now proper multi-line editors.</li>
+    <li><b>A livelier home</b> — issues handled, PRs shipped, day streak, "The Garden" contribution heatmap of your sessions, and Field Notes with fun facts from your ledger.</li>
+    <li><b>Shipping tidies up</b> — "Ship it" closes the session's terminal window, and self-merged issues vanish from Open Issues immediately.</li>
+    <li><b>Instant issue actions</b> — create, edit, label, assign, and close apply on the spot, reconciled against GitHub behind the scenes.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.1.3/LazyTasks-2.1.3.dmg"
+                sparkle:edSignature="Vah50kUJC+emgSsBipIBwYF63ex1PERBbqlyXxAw3ZodF4MfgBbpJFkvMpDGLQPw85Ks1HBVSkMyfj93pMk9CA=="
+                length="2529869"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.1.2</title>
             <pubDate>Tue, 28 Jul 2026 07:05:59 +0000</pubDate>
             <sparkle:version>4</sparkle:version>

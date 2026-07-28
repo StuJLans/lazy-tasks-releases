@@ -3,6 +3,19 @@
     <channel>
         <title>LazyTasks v2</title>
         <item>
+            <title>Version 2.1.2</title>
+            <pubDate>Tue, 28 Jul 2026 07:05:59 +0000</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.1.2/LazyTasks-2.1.2.dmg"
+                sparkle:edSignature="yBIwF+wAoJEFW4EKj+ukb/vtAnNnSdEYq12CHoPF5W9JxYHO2lGjNi0U/SlWar02uZT00KNlVhIIg7sSvYCxAA=="
+                length="2279551"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.1.1</title>
             <pubDate>Tue, 28 Jul 2026 06:18:57 +0000</pubDate>
             <sparkle:version>3</sparkle:version>

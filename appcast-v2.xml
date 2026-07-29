@@ -3,6 +3,35 @@
     <channel>
         <title>LazyTasks v2</title>
         <item>
+            <title>Version 2.3.0</title>
+            <pubDate>Wed, 29 Jul 2026 13:30:30 +0000</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>LazyTasks 2.3.0</h2>
+<p><b>Background sessions become dependable.</b> Headless runs now start from any issue row, survive every Mac's environment, can't silently lose work — and the new Running board keeps every session on one screen.</p>
+<ul>
+    <li><b>Running board</b> — a new sidebar entry (⌘3) shows every agent session across all your projects, grouped by project with the ones that need you on top. Ship, reopen, discard, or dismiss straight from there.</li>
+    <li><b>Background sessions from issue rows</b> — a moon button next to Start session runs the issue headless: no terminal window, and the finished PR still closes the issue on merge (Pro).</li>
+    <li><b>Headless runs hardened</b> — background agents now get your terminal's PATH instead of dying on launch, a wrap-up that can't count commits keeps the workspace instead of deleting it, failed runs release their issue claim, and agents answer to a leash: stoppable, auto-stopped at 45 minutes, and never left orphaned after quit.</li>
+    <li><b>Headless housekeeping</b> — Tank's state marks sessions headless vs terminal and separates the ones wedged with unpushed work, status files no longer leak, same-second dispatches can't collide on a branch name, and free-tier background requests fall back to a terminal session and say so.</li>
+    <li><b>Multi-session dispatch fixed</b> — sessions of one project now take turns for the shared git cache, so a 5-session dispatch starts 5 sessions instead of failing half with lock errors.</li>
+    <li><b>Shipped issues leave the lists</b> — three races that let closed issues linger in OPEN ISSUES and My issues are fixed: refreshes queue instead of dropping, stale fetches can't overwrite fresh ones, and shipped issues are tombstoned.</li>
+    <li><b>Welcome back</b> — returning users get a brief branded splash instead of the toolchain checklist; it only reappears when something actually broke, redesigned with copyable fix commands.</li>
+    <li><b>Shortcuts you can see</b> — key-cap badges on buttons, a ⌘/ cheat sheet under Help, and a jump to System Settings to rebind anything.</li>
+    <li><b>Settings in the sidebar foot</b> — a proper labelled row (⌘,) where Macs keep it, instead of a tiny gear in the PROJECTS header.</li>
+    <li><b>Secrets sheet fixed</b> — focus lands in the KEY field, Return walks and submits, incomplete adds say what's missing, and saves confirm.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.3.0/LazyTasks-2.3.0.dmg"
+                sparkle:edSignature="0lgAO2wWa6rqt1NptADVIEKBra6ZrbdrEumEjUkMjy+48EaxQIk6hnj5XIU9C7aKNNzd/7g/CnFQFzQ/BejGBA=="
+                length="3041925"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.2.0</title>
             <pubDate>Wed, 29 Jul 2026 04:59:22 +0000</pubDate>
             <sparkle:version>7</sparkle:version>

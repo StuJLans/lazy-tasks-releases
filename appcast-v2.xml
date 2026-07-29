@@ -3,6 +3,31 @@
     <channel>
         <title>LazyTasks v2</title>
         <item>
+            <title>Version 2.2.0</title>
+            <pubDate>Wed, 29 Jul 2026 04:59:22 +0000</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>LazyTasks 2.2.0</h2>
+<p><b>The first fully stable multi-session release.</b> Running several agent sessions at once is now safe end to end — and 2.2.0 leans into it.</p>
+<ul>
+    <li><b>Multi session</b> — a new button above the open issues list turns the rows into checkboxes: select the issues you want worked in parallel and start one agent session per issue, each linked to its issue so wrap-up PRs close the right one. A toggle switches bulk runs to the background (Pro).</li>
+    <li><b>Shipping in a row no longer strands PRs</b> — ship now catches the session branch up with main first, so back-to-back sessions all merge; when a merge genuinely can't happen, the session lands as "Needs merge" with the reason instead of a false "Done".</li>
+    <li><b>Agent profiles</b> — give sessions a working persona (Senior Engineer, Test Engineer, Docs Writer, and more), edit them in the new profile studio, set a project default from the Profile chip, or pin one to a single issue. Profiles are plain markdown files you can share between Macs.</li>
+    <li><b>Keyboard shortcuts everywhere</b> — ⌘↩ submits the composer and deploy panel, a real menu bar makes everything discoverable and rebindable: New Issue (⌘N), New Session (⇧⌘N), Go to Home (⌘1), My Issues (⌘2), projects (⌘3–⌘9), Refresh Issues (⌘R), and more.</li>
+    <li><b>Quieter project header</b> — Secrets, Cloudflare, and Fresh/Cached controls now sit as small capsule chips on the repo · branch line, fading to faint outlines when at their defaults.</li>
+    <li><b>The Garden grows with you</b> — new users see a compact daily bar chart of sessions instead of a barren 24-week grid; the familiar weekly heatmap takes over as history accumulates.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.2.0/LazyTasks-2.2.0.dmg"
+                sparkle:edSignature="DNELEOxOgOoBtqyOsQ7cF6dcRNsXatkDJ8LdUrH/t/IHCxqlez1DNUqHZE3rsBpb5o1YkuuY0R+dbiUu9sVbAQ=="
+                length="2802735"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.1.4</title>
             <pubDate>Wed, 29 Jul 2026 04:00:18 +0000</pubDate>
             <sparkle:version>6</sparkle:version>

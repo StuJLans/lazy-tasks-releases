@@ -3,6 +3,26 @@
     <channel>
         <title>LazyTasks v2</title>
         <item>
+            <title>Version 2.4.3</title>
+            <pubDate>Thu, 30 Jul 2026 15:08:24 +0000</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>2.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>LazyTasks 2.4.3</h2>
+<p><b>The sidebar stays put.</b> Fixed the sidebar getting cut off when selecting a project after resizing the window.</p>
+<ul>
+    <li><b>Sidebar no longer clips</b> — selecting a project could shave the left edge off the sidebar when its deploy row demanded more width than the window had. The row now wraps on narrow windows, and the main content area can never push the sidebar off-screen again.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.4.3/LazyTasks-2.4.3.dmg"
+                sparkle:edSignature="XumtNv2SxU/A8psFZ4/XG4RCWaGZM/Yp+hfwxU/4urwOevDjKtQLm2+jC74ByaJGeOuICUfxq1+bgPu8MTu3BQ=="
+                length="3109371"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.4.2</title>
             <pubDate>Thu, 30 Jul 2026 14:29:41 +0000</pubDate>
             <sparkle:version>11</sparkle:version>

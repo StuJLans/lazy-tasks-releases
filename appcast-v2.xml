@@ -3,6 +3,28 @@
     <channel>
         <title>LazyTasks v2</title>
         <item>
+            <title>Version 2.4.2</title>
+            <pubDate>Thu, 30 Jul 2026 14:29:41 +0000</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>2.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>LazyTasks 2.4.2</h2>
+<p><b>The window behaves after a resize.</b> Enlarging the window no longer leaves dead space, and shrinking it back no longer squishes the sidebar.</p>
+<ul>
+    <li><b>Home fills the window</b> — enlarging the window makes the home view expand to the full width instead of holding a fixed-width column with dead space on the right.</li>
+    <li><b>Sidebar rows stay put</b> — project rows and group headers truncate long names to one line, so selecting a project can no longer make its row render wider than the sidebar (the cause of the post-resize sidebar squish).</li>
+    <li><b>Model selection documented</b> — the README now explains setting a project's default model and overriding it per dispatch.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.4.2/LazyTasks-2.4.2.dmg"
+                sparkle:edSignature="zG7TRK6rSTbe6uMN9rAOS8G3isxfkQjf25Xp0WjaJrWhMa6vS5u3PdaVr9sTPSPXPnd1WJjclE9v8VhCcVlBDQ=="
+                length="3104946"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.4.1</title>
             <pubDate>Thu, 30 Jul 2026 13:48:29 +0000</pubDate>
             <sparkle:version>10</sparkle:version>

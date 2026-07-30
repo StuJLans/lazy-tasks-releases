@@ -3,6 +3,28 @@
     <channel>
         <title>LazyTasks v2</title>
         <item>
+            <title>Version 2.4.0</title>
+            <pubDate>Thu, 30 Jul 2026 13:24:32 +0000</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>LazyTasks 2.4.0</h2>
+<p><b>You pick the model, you pull the trigger.</b> Choose which model a session runs with — per project or per dispatch — and get a confirming click before anything ships. Plus headless sessions now start on every Mac, however node is installed.</p>
+<ul>
+    <li><b>Choose your model</b> — set a project default from the model chip on the project page (pick a suggestion or type any model name the CLI accepts), override any single dispatch from an issue row's "Start session with model" menu, and Tank can pass <code>"model"</code> on a <code>start_session</code> action. Nothing set means the provider default, as before.</li>
+    <li><b>Ship asks first</b> — the first click on any Ship control arms it (amber, "Ship?"); a second click within 3 seconds ships, anything else disarms it. No more accidental ships.</li>
+    <li><b>Headless works on nvm-only Macs</b> — background sessions no longer die with "env: node: No such file or directory" when node lives in nvm/fnm/asdf: the runner now resolves tools through your interactive shell, so it sees the same PATH your terminal does.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.4.0/LazyTasks-2.4.0.dmg"
+                sparkle:edSignature="1VlZ7qadlnCmA2sRjt3SM+AOu9dyFJy8M1O1mMlb285vR4CRVBU0F6hfveiE0INay5vxinW4vgVPcSr8qROhCg=="
+                length="3103658"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.3.0</title>
             <pubDate>Wed, 29 Jul 2026 13:30:30 +0000</pubDate>
             <sparkle:version>8</sparkle:version>

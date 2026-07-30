@@ -3,6 +3,28 @@
     <channel>
         <title>LazyTasks v2</title>
         <item>
+            <title>Version 2.4.1</title>
+            <pubDate>Thu, 30 Jul 2026 13:48:29 +0000</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>LazyTasks 2.4.1</h2>
+<p><b>Headless sessions are back on their feet.</b> 2.4.0 could pick up a stale <code>claude</code> install and fail every headless dispatch — this release fixes that, surfaces real error messages in session notes, and freshens the model picker's suggestions.</p>
+<ul>
+    <li><b>No more stale <code>claude</code> in headless runs</b> — tool resolution now probes your interactive shell first, so the CLI your terminal uses (nvm/fnm/asdf installs included) wins over an older copy elsewhere on the PATH. Headless dispatches that died with "exit 1" on 2.4.0 work again.</li>
+    <li><b>Failure notes show the real error</b> — when a tool prints its error to stdout (as <code>claude -p</code> does), the session note now includes that text instead of a bare exit code.</li>
+    <li><b>Current model aliases</b> — the model picker menus now suggest <code>fable</code>, <code>opusplan</code>, <code>opus[1m]</code>, <code>sonnet[1m]</code> and friends alongside opus/sonnet/haiku. Still free text, so any model name the CLI accepts works.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.4.1/LazyTasks-2.4.1.dmg"
+                sparkle:edSignature="EQCayT16gFfG4yTmD+wgNmAcphvfPyJUqP5UG6cKqGsKp2NaucPmYQXY20HmMq/LkpkjkgRLU1Y6nHihCOdKAg=="
+                length="3103840"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.4.0</title>
             <pubDate>Thu, 30 Jul 2026 13:24:32 +0000</pubDate>
             <sparkle:version>9</sparkle:version>

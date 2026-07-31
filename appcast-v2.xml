@@ -3,6 +3,28 @@
     <channel>
         <title>LazyTasks v2</title>
         <item>
+            <title>Version 2.5.0</title>
+            <pubDate>Fri, 31 Jul 2026 03:59:30 +0000</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>LazyTasks 2.5.0</h2>
+<p><b>LazyTasks now plans ahead, not just executes.</b> Put Tank on a schedule, review what it proposes from a new Suggested queue, and let the built-in nightly review turn today's closed issues into tomorrow's tasks — nothing touches your repos until you say yes.</p>
+<ul>
+    <li><b>Scheduled operator tasks</b> — a new SCHEDULED sidebar section holds standing orders ("Mon–Fri 9pm: review closed issues and suggest tasks") that run headlessly in the background. Full editor with prompt, time picker, day-of-week chips, optional project focus, and one-time runs; each entry shows its next run in plain words and how the last run went. Missed runs get one catch-up ask on launch — never a silent skip, never a double-run.</li>
+    <li><b>Suggested queue</b> — scheduled runs deposit draft GitHub issues (up to 3 per run) into a new Suggested sidebar section instead of acting on your repos. Review the title, project, and "why", edit if you like, then Confirm to file the issue in one click — or Dismiss to bury the idea permanently; dismissed ideas are never suggested again.</li>
+    <li><b>Nightly review built in</b> — Mon–Fri at 9pm, Tank reviews every issue closed since its last successful run and proposes up to 3 follow-up tasks, each with a "why now" tied to the issue or PR that prompted it. Nothing meaningful closed? It proposes nothing.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.5.0/LazyTasks-2.5.0.dmg"
+                sparkle:edSignature="gpGNAYeSJSXaqozKFpyn/5CNgGIb2Tcm/2iYBl9r7Z46K0S8Kz+/NY4TyIy6H9zOHuZFYDSaHl4n4Ie9YKS9BA=="
+                length="3439722"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.4.3</title>
             <pubDate>Thu, 30 Jul 2026 15:08:24 +0000</pubDate>
             <sparkle:version>12</sparkle:version>

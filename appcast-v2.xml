@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
-        <title>LazyTasks v2</title>
+        <title>IndieGent</title>
+        <item>
+            <title>Version 2.6.0</title>
+            <pubDate>Wed, 05 Aug 2026 10:07:09 +0000</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.6.0</h2>
+<p><b>Lazy Tasks is now IndieGent.</b> New name, new mark, new look and a first-class dark mode — plus an Inbox that brings work to you, project summaries that write themselves, and a Garden that finally explains what a day was.</p>
+<p><b>Nothing moved on your Mac.</b> Your projects, sessions, schedules, Tank's memory, your licence and every permission you've granted all carry over — the bundle identifier and the settings folder deliberately keep their old names, so this is a rename you read rather than something you redo.</p>
+<ul>
+    <li><b>A new name, mark and look</b> — the Dock, menu bar, About and Quit items, window title, onboarding, Settings and your agents' session briefs all say IndieGent. The app wears its own icon and its own type (Plus Jakarta Sans and Inter, both shipped inside the app): white where the page is, warm beige on the surfaces, one accent yellow spent only on the thing you're meant to click.</li>
+    <li><b>Dark mode</b> — the app finally follows your Mac's appearance instead of pinning itself to light.</li>
+    <li><b>The name reaches everything the app sends out</b> — PRs your sessions open are signed by IndieGent, operator runs introduce themselves as IndieGent, the licence email says IndieGent, and the download arrives as <code>IndieGent-2.6.0.dmg</code>.</li>
+    <li><b>The Inbox</b> — a new section at the top of the sidebar shows work coming in: an issue assigned to you, an @mention, a review someone's waiting on, with an unread count on the bell. Click through to GitHub, or start a session on an issue right from the row.</li>
+    <li><b>Sidebar counts are yours, not everyone's</b> — the badge counts issues assigned to you plus unclaimed ones; a teammate's work sits beside it as a plain number. Home and Tank follow the same rule.</li>
+    <li><b>Every project can say what it is</b> — write a project's one-line summary yourself, or let IndieGent read the repo's README and draft it for you. Home gathers the blank ones under "projects with no summary", and "Draft them all" does the lot.</li>
+    <li><b>The Garden explains itself</b> — run the cursor along the chart and each day tells you what happened: sessions, issues picked up, PRs shipped, agent time and which repos. Quiet days answer too. The card now lines up with Field Notes at every window size.</li>
+    <li><b>Suggested clears itself</b> — a confirmed suggestion ticks, shows the issue number it was filed as, then slides out of the queue. An empty queue is now a designed screen: when the next run fires, when suggestions last arrived, and a Run now button.</li>
+    <li><b>Open issues read oldest first</b> — sorted by issue number, lowest at the top, the same way every time.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.6.0/IndieGent-2.6.0.dmg"
+                sparkle:edSignature="SKQ0n2boYq0wiX8inT7Rfcy8D6KNQuKTd/vi0REqBHbHnjpYdLlyJYrU6t4xF3RMTvy+MRLRpo9wqlpiXg5BDA=="
+                length="5385143"
+                type="application/octet-stream"
+            />
+        </item>
         <item>
             <title>Version 2.5.0</title>
             <pubDate>Fri, 31 Jul 2026 03:59:30 +0000</pubDate>

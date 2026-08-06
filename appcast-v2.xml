@@ -3,6 +3,31 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.6.1</title>
+            <pubDate>Thu, 06 Aug 2026 08:55:29 +0000</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>2.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.6.1</h2>
+<p><b>A quieter sidebar, two new settings, and a button that stopped pretending.</b> A polish release: the sidebar loses the chrome it didn't need, IndieGent can open itself when you log in, full-auto sessions can run under Claude Code's Auto Mode instead of skipping permission checks, and "Draft them all" now does what it says.</p>
+<ul>
+    <li><b>A full-height sidebar</b> — the divider between the rail and the stage now runs from the very top edge of the window to the bottom, like Finder and Mail, instead of stopping below an undivided title strip. The window title has gone with it; the sidebar header was already saying "IndieGent".</li>
+    <li><b>Scrollbars stay out of the way</b> — the projects list no longer sits behind a permanently visible scrollbar. Scroll surfaces now genuinely use macOS overlay scrollers (the knob appears while you scroll, then fades), rather than the always-on kind any Mac with a mouse attached was getting — and the list gets back the width the old gutter took.</li>
+    <li><b>Suggested hides when there's nothing to decide</b> — an empty queue is the ordinary state, so the row now appears the moment a suggestion arrives and steps aside when the queue is clear. If you're looking at the Suggested screen, it stays put until you leave.</li>
+    <li><b>Launch at login</b> — a new switch in Settings, off unless you turn it on: IndieGent opens when you log in, so scheduled runs fire and sessions are watched without you starting it first. It reads the Mac rather than remembering its own answer, so it always agrees with System Settings › General › Login Items — and if macOS is holding the item pending approval, the card says so and takes you there.</li>
+    <li><b>Auto Mode for sessions that open in a terminal</b> — a new <b>Session permissions</b> choice. A full-auto session can launch into Claude Code's Auto Mode, where a classifier waves through safe actions and asks you about destructive ones, instead of skipping permission checks entirely. It starts on <b>Skip all permissions</b> — exactly what sessions have always done — so nothing changes until you pick the other one. Background runs always skip every prompt whichever you choose: there's no terminal for Auto Mode to ask in.</li>
+    <li><b>"Draft them all" looks at GitHub again</b> — drafting a project summary re-reads the README at the moment you click, instead of trusting what the app decided earlier in the session. Projects that had no README when IndieGent last looked used to leave the button dead until a restart; now they get drafted. A repo that genuinely has none says so and names the branch it checked.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.6.1/IndieGent-2.6.1.dmg"
+                sparkle:edSignature="Dcamaf2EKIDT/0/oF6VzLsqeP2f1xZ0ePU3xvitZSCNvkPQtM5ysqAcIvfqfC5JuIglrfFV1zmoztvgi/W69Dw=="
+                length="5416771"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.6.0</title>
             <pubDate>Wed, 05 Aug 2026 10:07:09 +0000</pubDate>
             <sparkle:version>14</sparkle:version>

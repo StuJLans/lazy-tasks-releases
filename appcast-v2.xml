@@ -3,6 +3,29 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.6.2</title>
+            <pubDate>Sat, 08 Aug 2026 01:39:20 +0000</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>2.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.6.2</h2>
+<p><b>Every session now starts knowing where the files are.</b> This release leads with a file tree of each project, baked into every session that project runs — an agent can look a path up instead of spending its first few turns on <code>ls</code> and <code>find</code>. Behind it: shipping a session full of big files works, PR descriptions say what the agent actually did, and My Issues is grouped, sorted and filterable.</p>
+<ul>
+    <li><b>A file tree for each project's sessions</b> — a new <b>Tree</b> chip on the project header generates a <code>tree</code>-style listing of the repo straight from GitHub. Nothing is cloned, and there's no <code>node_modules</code> to exclude by hand: it only ever lists what git actually tracks. Every session of that project then gets it baked in at <code>.lazytasks/tree.md</code>, so a path is a lookup rather than a search. The chip checks itself against the repo's current commit and turns warm yellow once the branch has moved on, so refreshing it is a click when it's needed rather than a guess.</li>
+    <li><b>Shipping a session with big files in it works</b> — a session that committed fonts, a video or a folder of screenshots could fail to ship, because git only buffers 1MB of a push over HTTPS by default; it now pushes with room for the whole thing. And that failure used to be reported as a success, quoting git's parting "Everything up-to-date" for a branch that never reached GitHub. Ship it now confirms the branch on GitHub before claiming anything, keeps the workspace when it didn't land, and the Ship button on an Unfinished session retries it.</li>
+    <li><b>PR descriptions say what the agent actually did</b> — a shipped PR used to show the brief that was sent, verbatim: what was <i>asked for</i>, not what came back. Sessions now write a short summary before they stop, and Ship it appends it under "What actually happened," ahead of the <code>Closes #N</code> line.</li>
+    <li><b>My Issues is grouped, sorted and filterable</b> — it now groups by project, biggest backlog first, each section collapsible with its count always showing. Issues sort oldest-first by default, with newest and recently-updated as alternatives, and you can filter down to specific projects or labels.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.6.2/IndieGent-2.6.2.dmg"
+                sparkle:edSignature="lxxkvvm1Jwtwjt8pNa0izZCmIQUdgHp4ig2JaCwAwz3DVPu2RTfoU5c4x3ST3umKPwVYZ+P3wYXOBrFAQlNnDQ=="
+                length="5548565"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.6.1</title>
             <pubDate>Thu, 06 Aug 2026 08:55:29 +0000</pubDate>
             <sparkle:version>15</sparkle:version>

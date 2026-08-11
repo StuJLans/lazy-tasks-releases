@@ -3,6 +3,28 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.6.3</title>
+            <pubDate>Tue, 11 Aug 2026 03:44:28 +0000</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>2.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.6.3</h2>
+<p><b>Tank gets more autonomous this release.</b> Dispatch it and it now watches its own work and reports back on its own, creates and edits scheduled tasks on the spot with no restart needed, and the Suggested queue finally surfaces every kind of idea a scheduled run proposes — not just GitHub issues.</p>
+<ul>
+    <li><b>Tank watches its own dispatches</b> — after dispatching one or more sessions, Tank now arms a persistent poll of session state and only speaks up when something actually changes: a session finishing, timing out, or needing attention. Leaving Tank unattended while it dispatches work now reliably surfaces completions and follow-ups without you having to come back and ask.</li>
+    <li><b>Tank creates and edits scheduled tasks without a restart</b> — previously a schedule added by hand sat dark until the app restarted. Tank now has actions to add, update, and delete scheduled tasks directly, and a schedule it creates arms immediately and shows up in the sidebar within seconds. A one-time schedule whose fire time has already passed is rejected with a clear error instead of silently going nowhere.</li>
+    <li><b>Suggested surfaces every kind of scheduled-run proposal</b> — session and note proposals used to be silently dropped, showing only GitHub issues even though the run reported a full count. Now issue and session proposals get a yes/no (confirming a session starts it immediately) and notes are a simple read-and-dismiss, with the run's own summary reporting what actually reached the queue.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.6.3/IndieGent-2.6.3.dmg"
+                sparkle:edSignature="j7yt/JtnggjK0/9wvtqZcIzXKjK0SJ7BC2JTZg+5nsK3m87pUK7DKJfRaDjA19n/xA4gg1aXzmeEVQ69Q2qIBg=="
+                length="5621018"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.6.2</title>
             <pubDate>Sat, 08 Aug 2026 01:39:20 +0000</pubDate>
             <sparkle:version>16</sparkle:version>

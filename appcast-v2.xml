@@ -3,6 +3,27 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.6.4</title>
+            <pubDate>Tue, 11 Aug 2026 12:25:21 +0000</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>2.6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.6.4</h2>
+<p><b>Two refinements to how sessions run unattended.</b> Tank's session-watch no longer reports the same completion twice, and headless sessions — including the ones Tank dispatches on your behalf — get more breathing room before the watchdog steps in.</p>
+<ul>
+    <li><b>Tank's session-watch stops double-alerting</b> — the session-watch pattern Tank arms after dispatching work used to speak up twice for the same session: once when it completed, and again later when that entry rotated out of the state file. Tank's watch now emits one line per genuinely new event, so a completed session is reported once, with no repeat pings for something you already saw.</li>
+    <li><b>Headless sessions get more runway</b> — the watchdog ceiling before a still-running headless run is stopped is now 59 minutes, up from 45. Tank can also ask for a different ceiling per session (10-120 minutes) for a job it expects to run long.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.6.4/IndieGent-2.6.4.dmg"
+                sparkle:edSignature="PwUw4RyvJ0LUv7n4ojlmRWrJ1tgjujckKqWBKZ8cWJ0+dwfi674Ty7t8CYTSsw8ZjOMyzvoyyo9hzfQJ8s7+CA=="
+                length="5622776"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.6.3</title>
             <pubDate>Tue, 11 Aug 2026 03:44:28 +0000</pubDate>
             <sparkle:version>17</sparkle:version>

@@ -3,6 +3,27 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.0</title>
+            <pubDate>Thu, 13 Aug 2026 05:19:13 +0000</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.0</h2>
+<p><b>A second agent CLI.</b> IndieGent has driven Claude Code exclusively since 2.6.0; 2.7.0 adds Grok Build as a fully-supported alternative — pick it per project or per dispatch, and it reads your repo's CLAUDE.md like Claude does, with nothing to set up.</p>
+<ul>
+    <li><b>Grok Build as a selectable agent provider</b> — every project gets an Agent chip in its header: pick Claude Code or Grok Build, and every session that project starts runs the CLI you chose. Interactive and headless sessions both work, and Tank can dispatch an individual run on whichever CLI fits the job. Onboarding shows Grok as its own optional row — installing it changes nothing for existing Claude-only setups.</li>
+    <li><b>A Grok session reads your project's CLAUDE.md</b> — Grok Build discovers a repo's CLAUDE.md on its own, the same project instructions a Claude session already follows, so a Grok session now works from the same brief. One thing it still can't do: report live progress while it works — its status only moves when you ship it or a headless run finishes.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.0/IndieGent-2.7.0.dmg"
+                sparkle:edSignature="ikHZdrQP/0WE8CaGBkFg18T2ry+z1WSbGHhFguFexBA73meKAFjHQBm37sNW3cIHlr/VzIkTUWOzX3DdYm52Cw=="
+                length="5664196"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.6.4</title>
             <pubDate>Tue, 11 Aug 2026 12:25:21 +0000</pubDate>
             <sparkle:version>18</sparkle:version>

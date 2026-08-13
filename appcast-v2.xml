@@ -3,6 +3,28 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.1</title>
+            <pubDate>Thu, 13 Aug 2026 10:34:39 +0000</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>2.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.1</h2>
+<p><b>A stability release.</b> A main-thread livelock that could beachball the console under a few concurrent sessions is fixed, session dispatch and wrap-up now keep running even when the console is busy, and Tank ships with sharper guidance on which model and provider to reach for.</p>
+<ul>
+    <li><b>Fixed: the console could lock up while sessions ran</b> — the "Session running" chip's perpetual pulse animation re-laid the entire window every frame, and with a few concurrent sessions on screen that could saturate the main thread until the app beachballed. The chip's dot is now static, matching every other "live" indicator in the console, and the Suggested tab's empty-state dial got the same fix.</li>
+    <li><b>Session dispatch, status updates, and wrap-up no longer depend on a responsive console</b> — the machinery that processes Tank's action inbox, reads session status updates, and wraps up finished sessions now runs off the main thread entirely, so a busy console can no longer stall a dispatch, lose a wrap-up, or leave a Tank action sitting unprocessed.</li>
+    <li><b>Tank now routes models and providers by task, out of the box</b> — Tank's shipped instructions now pick a model, and when it's the better fit the Grok provider, for each session it dispatches: cheap models for mechanical work, the top-tier model for genuinely hard dev, Grok for copywriting and bulk edits. Every fresh install gets this, not just one operator's memory.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.1/IndieGent-2.7.1.dmg"
+                sparkle:edSignature="NWCB9AHSbvD9KYPCa0h6/GEZ+w4lFlfbLLMYVuCVAnbz+lgT+zUew8UhF2DQGTREDfBvSAjzjJf++BegYpY4Ag=="
+                length="5706587"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.0</title>
             <pubDate>Thu, 13 Aug 2026 05:19:13 +0000</pubDate>
             <sparkle:version>19</sparkle:version>

@@ -3,6 +3,27 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.2</title>
+            <pubDate>Fri, 14 Aug 2026 03:37:55 +0000</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>2.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.2</h2>
+<p><b>A cleanup and reliability release.</b> Shipping a task now tidies up after itself on GitHub, and a background build can no longer be killed out from under a finishing session.</p>
+<ul>
+    <li><b>Shipping now cleans up its branch</b> — when a full-auto session ships and its PR merges, IndieGent deletes the <code>lazy/*</code> branch behind it, and a launch-time sweep clears out already-merged or closed branches from before this shipped. Branches with an open PR you're still reviewing are left alone.</li>
+    <li><b>Background builds no longer get killed at wrap-up</b> — a headless session whose agent backgrounds a long-running command (a release build, notarization, a test sweep) now has wrap-up wait for that work to finish, showing "Waiting on a background process" on the session row, instead of tearing the workspace down while it's still running.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.2/IndieGent-2.7.2.dmg"
+                sparkle:edSignature="ozoo1pCmFl116T0klQBd2Ivrcq4xWLmMVtd5YkYOnuP9SNqjQl9okzvh3gSY3byv/P2bp4hgNtlxRHWDZqIICQ=="
+                length="5738873"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.1</title>
             <pubDate>Thu, 13 Aug 2026 10:34:39 +0000</pubDate>
             <sparkle:version>20</sparkle:version>

@@ -3,6 +3,29 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.3</title>
+            <pubDate>Sat, 15 Aug 2026 03:01:30 +0000</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>2.7.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.3</h2>
+<p><b>A reliability release for salvage, Grok, and cross-provider dispatch.</b> A crashed session's work is now not just offered back to you but cleaned up once it's safe, Grok sign-in is detected live instead of only at launch, and dispatching a session on a different provider than a project's usual one no longer crashes the CLI.</p>
+<ul>
+    <li><b>Work a crash left behind is now offered back to you</b> — if IndieGent is killed after an agent has finished and committed but before its work is shipped, IndieGent now scans its own workspaces on launch and puts a card in Suggested for each one holding unshipped work, with a brief that already names the workspace, the branch, and the original task.</li>
+    <li><b>Salvaged workspaces now clean up after themselves</b> — a salvaged workspace's directory used to sit on disk forever once its work was copied onto a fresh branch. IndieGent now deletes it automatically once every byte is verifiably safe elsewhere (nothing uncommitted, branch pushed, PR merged), with a manual "Clean up" button for the moment the PR lands.</li>
+    <li><b>Grok sign-in is detected live, not just at launch</b> — signing into Grok Build after IndieGent had already started used to go unnoticed until the app restarted. IndieGent now rechecks sign-in status continuously, so a sign-in elsewhere is picked up within a few seconds.</li>
+    <li><b>Model defaults no longer cross providers</b> — dispatching a session on a different provider than a project's usual one no longer forwards a model name the target CLI doesn't understand and crashes it; IndieGent now recognizes which provider a saved default model belongs to and drops it when it doesn't match.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.3/IndieGent-2.7.3.dmg"
+                sparkle:edSignature="9Omv8of+fCLXIgCtOdj/Sh9YByVdu+DraXCyyioZGdTiv+tixzs/qI9fpEI0WgMcuvYSaKYsF21oz6crHej0CA=="
+                length="5838550"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.2</title>
             <pubDate>Fri, 14 Aug 2026 03:37:55 +0000</pubDate>
             <sparkle:version>21</sparkle:version>

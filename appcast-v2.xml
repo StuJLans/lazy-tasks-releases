@@ -3,6 +3,26 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.4</title>
+            <pubDate>Sun, 16 Aug 2026 08:34:01 +0000</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>2.7.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.4</h2>
+<p><b>A reliability release for background processes.</b> A session whose agent leaves something running behind it — a headless browser, a dev server it forgot to stop — no longer gets stuck waiting on it indefinitely.</p>
+<ul>
+    <li><b>A leaked process can no longer hold a session open</b> — a background session whose agent left something running (a headless browser, a dev server it forgot to stop) used to sit on the board looking busy until someone killed that process by hand. A session now waits at most five minutes past the agent's own exit before tidying up leftovers and shipping, and a leftover process that happened to inherit the agent's output no longer stops the session finishing at all. The row shows "Waiting on N" with a countdown while this happens, and anything cleaned up is named in the session's history.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.4/IndieGent-2.7.4.dmg"
+                sparkle:edSignature="D5/bdSAhjbZ1jy3QDUAGW6151kIadSFJEsTSJ4vAqXGhRJDcGTQ6pSzVqD8R0mkf7+QTgRW81cBkZB2DVM24AA=="
+                length="5872086"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.3</title>
             <pubDate>Sat, 15 Aug 2026 03:01:30 +0000</pubDate>
             <sparkle:version>22</sparkle:version>

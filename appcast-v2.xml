@@ -3,6 +3,28 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.5</title>
+            <pubDate>Wed, 19 Aug 2026 00:12:02 +0000</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>2.7.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.5</h2>
+<p><b>Two fixes about knowing what actually happened.</b> A background session that stopped halfway no longer reads as a clean ship, and work stranded by a crash is now impossible to walk past.</p>
+<ul>
+    <li><b>A background run that stopped at a wait point no longer reads as a clean ship</b> — a session whose agent armed a monitor and ended its turn used to ship a PR with nothing actually verified. Background sessions are now told up front that monitors and waits don't survive the end of a turn, and a session whose agent never wrote its summary is flagged "Done — verify" on the board, warned about in the PR body, and re-checked by the operator instead of being reported as shipped.</li>
+    <li><b>Post-crash salvage is unmissable</b> — work stranded in a workspace by a crash used to be offered only as a card in Suggested, which you had to go and look at. It now lights the menu bar dot and the sidebar badge like any other thing needing you, and the card itself is warn-toned so it doesn't read like an ordinary suggestion.</li>
+    <li><b>Ship it sweeps leftover processes during a wrap-up hold</b> — clicking Ship it while a session waits on a leaked background process now runs the same cleanup the automatic path does, instead of tearing the workspace down and leaving the process behind.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.5/IndieGent-2.7.5.dmg"
+                sparkle:edSignature="zXZ71zB/spMc3G3OAKRa2AVrl7HBmjn+oyWHVJDhqMdzEtkT4JLlQEHwIRBkJqqsBkPPA7t+F6QF31tqzw03Aw=="
+                length="5887394"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.4</title>
             <pubDate>Sun, 16 Aug 2026 08:34:01 +0000</pubDate>
             <sparkle:version>23</sparkle:version>

@@ -3,6 +3,27 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.6</title>
+            <pubDate>Tue, 25 Aug 2026 09:26:16 +0000</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>2.7.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.6</h2>
+<p><b>A freeze fix and a watcher hardening.</b> Opening a project no longer risks a beachball, and Tank's inbox now shrugs off a slow or malformed write instead of going dark.</p>
+<ul>
+    <li><b>Opening a project or My Issues no longer freezes the app</b> — clicking into a project or My Issues could beachball IndieGent into "Application Not Responding" while a session was in flight. Project headers now read their facts once instead of on every redraw, unchanged data no longer triggers a re-layout, My Issues uses a plain (non-lazy) list, and every GitHub CLI call now times out after 60s so a wedged call can't hold a screen open forever.</li>
+    <li><b>Tank's inbox watcher survives a malformed or slow-written actions-inbox.json</b> — a file read the instant it changed, before a non-atomic write had finished, used to be declared permanently malformed until the app restarted. The watcher now gives a write a short settle window before giving up, and always stays ready for whatever Tank writes next.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.6/IndieGent-2.7.6.dmg"
+                sparkle:edSignature="hFw8ima8Ak1cNl2CFT0tDhM/1eglso159lj4AR11GJrk/4IRNI8qdCjZZOfEKNAMXJJrU5RyvoZ9Ozv4UtATDg=="
+                length="5994825"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.5</title>
             <pubDate>Wed, 19 Aug 2026 00:12:02 +0000</pubDate>
             <sparkle:version>24</sparkle:version>

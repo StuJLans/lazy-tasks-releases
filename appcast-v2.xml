@@ -3,6 +3,26 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.9</title>
+            <pubDate>Wed, 26 Aug 2026 07:39:38 +0000</pubDate>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>2.7.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.9</h2>
+<p><b>Read your mail, not just triage it.</b> The Email module gets a reader, so a message opens as the real thing beside your sweep — not a summary you have to trust.</p>
+<ul>
+    <li><b>Read your mail in the Email module, not just triage it</b> — click any message in the sweep and it opens beside the list, formatted the way the sender wrote it, images and links and tables intact. Remote images stay blocked until you ask for them, scripts never run, and links open in your browser. Search your whole mail from the header, with a File › Print (⌘P) that prints the message itself. Draft a reply with Tank, or answer with a small plain-text box — either way, replying no longer files the message away behind your back.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.9/IndieGent-2.7.9.dmg"
+                sparkle:edSignature="NPl+02ddX+SBK4kcpMagOnuOaM2IKFdw6qkVb71b1pzGUg4x5sob46P+CN7KYeZMbE1IOq/XknLSwUHbk1SzAw=="
+                length="6635417"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.8</title>
             <pubDate>Wed, 26 Aug 2026 06:55:15 +0000</pubDate>
             <sparkle:version>27</sparkle:version>

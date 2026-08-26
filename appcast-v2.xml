@@ -3,6 +3,27 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.10</title>
+            <pubDate>Wed, 26 Aug 2026 10:27:11 +0000</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>2.7.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.10</h2>
+<p><b>The reader fits the window it ships in, and replies get written for you.</b> Opening a message no longer needs a wider window, and a sweep now comes back with real drafts instead of empty rows waiting on you.</p>
+<ul>
+    <li><b>The Email reader fits the window</b> — at IndieGent's default size the reader now takes the whole Email pane, with ‹ Back to sweep (or Esc) to return and the ✓ ✎ ✕ kept in that bar. Widen past about 1100pt of pane and the list comes back beside it, as before.</li>
+    <li><b>Email: replies that are actually written for you</b> — a sweep is two stages now. Triage lands the board in seconds, then a background session reads each message that needs an answer and writes a ready-to-send draft plus a one-sentence reason, without ever blocking approve, skip or Apply. Needs-you rows still stay needs-you, but now arrive with a real reason and often a draft you can just approve. Settings › Email grows three model pickers for drafting, apply, and where the Tank buttons go.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.10/IndieGent-2.7.10.dmg"
+                sparkle:edSignature="n0Dd+Ob1nzrR5tl5xbJWLC5PeXjbJOXPnAp/QtI2RPMK1wXiSKxEwrJcmZ9Iy/AIFvXSsZ6p6EByo4k1Nc6ODQ=="
+                length="6724394"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.9</title>
             <pubDate>Wed, 26 Aug 2026 07:39:38 +0000</pubDate>
             <sparkle:version>28</sparkle:version>

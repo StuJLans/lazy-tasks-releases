@@ -3,6 +3,27 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.7</title>
+            <pubDate>Wed, 26 Aug 2026 04:20:59 +0000</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>2.7.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.7</h2>
+<p><b>A haiku fix and a CLAUDE.md growth cap.</b> Dispatching a session on Haiku now actually runs it, and every workspace's CLAUDE.md stops growing without bound.</p>
+<ul>
+    <li><b><code>haiku</code> sessions run instead of dying at launch</b> — dispatching a session on Haiku used to fail instantly because the <code>claude</code> CLI didn't resolve that alias itself. The app now maps it to the current Haiku model id before handing it over, and a session refused at launch like this no longer leaves a dead, empty workspace behind.</li>
+    <li><b>CLAUDE.md no longer grows without bound</b> — sessions are now told to keep each repo's CLAUDE.md a short, capped map and route durable learnings to <code>docs/notes/</code> instead. A session that grows CLAUDE.md past the cap anyway now flags it in its PR.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.7/IndieGent-2.7.7.dmg"
+                sparkle:edSignature="6QdOGabzt6q6lcmQm3sUlTIJtEN6/FwOuCf72hc5pudis43u7ICvGP148FX9zP1YEWM8vjpoaKdiPsTqqJ+IAQ=="
+                length="6006084"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.6</title>
             <pubDate>Tue, 25 Aug 2026 09:26:16 +0000</pubDate>
             <sparkle:version>25</sparkle:version>

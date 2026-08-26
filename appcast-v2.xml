@@ -3,6 +3,27 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.8</title>
+            <pubDate>Wed, 26 Aug 2026 06:55:15 +0000</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>2.7.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.8</h2>
+<p><b>Proposals that act, and an inbox that reads itself.</b> A scheduled run's suggestion can now carry out its own plan, and if you have Pontius installed, your email sweep gets a home in the console.</p>
+<ul>
+    <li><b>Scheduled runs can propose the work, not just describe it</b> — a proposal's card in Suggested now reads Approve / Edit / Dismiss. Approve runs its actions through Tank's own pipeline (start a session, file an issue, close one) and reports what happened; Edit opens the plan in a sheet first for the fields it marked editable.</li>
+    <li><b>Your email inbox, in the console</b> — if Pontius is installed and licensed, the sidebar grows an Email row: the last sweep as a short list of yeses, grouped the way you'd clear them. Housekeeping arrives already approved; replies wait for your yes. Apply runs everything you approved as one background session and reports what happened.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.8/IndieGent-2.7.8.dmg"
+                sparkle:edSignature="UYVoTshY/leq4jQbISRrnzLYMnFF5x7LCwJkH3Xqc23riB7iRwY8WX1pHGi3KWa7AdbJB6M2rn2L+NVYOny+CA=="
+                length="6310013"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.7</title>
             <pubDate>Wed, 26 Aug 2026 04:20:59 +0000</pubDate>
             <sparkle:version>26</sparkle:version>

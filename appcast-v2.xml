@@ -3,6 +3,26 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.11</title>
+            <pubDate>Thu, 27 Aug 2026 08:03:52 +0000</pubDate>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>2.7.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.11</h2>
+<p><b>Clerk, the email console.</b> A second console beside Tank, for mail instead of code — it triages your inbox, files the noise, and drafts replies in your voice.</p>
+<ul>
+    <li><b>Clerk, the email console</b> — opens a terminal that already knows both mailboxes: it triages with Pontius every fifteen minutes, files the noise itself with a one-line receipt you can undo for an hour, and brings you the rest one line at a time — who, what they want, what it would do, ok? It writes what it learns into your Pontius knowledge base so the same question never comes back twice. Open it from the Clerk button in the Email module, the rail below Chat with Tank, or Go › Chat with Clerk (⇧⌘T).</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.11/IndieGent-2.7.11.dmg"
+                sparkle:edSignature="Tsx4BZ8YCX6e5jdBJ6xaWDo24wEKrDLX3LVmDksdO4HfRUf1DV5E6Jk568syO4TFXzx8mDy/1tSfQSu6+UqSDw=="
+                length="6744909"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.10</title>
             <pubDate>Wed, 26 Aug 2026 10:27:11 +0000</pubDate>
             <sparkle:version>29</sparkle:version>

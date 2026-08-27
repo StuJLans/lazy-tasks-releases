@@ -3,6 +3,28 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.12</title>
+            <pubDate>Thu, 27 Aug 2026 14:14:07 +0000</pubDate>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>2.7.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.12</h2>
+<p><b>The sidebar is now an icon column and one panel.</b> A 48pt column of icons runs down the left edge, and beside it one 240pt panel shows whichever mode you're looking at — plus new shortcuts and a taller window minimum.</p>
+<ul>
+    <li><b>The sidebar is now an icon column and one panel</b> — a 48pt column of icons (Projects, Home, Scheduled, Email, with Tank, Clerk and Settings at the foot) sits beside one 240pt panel showing whichever mode you're looking at. Home collects what's stuck, running and shipped today; Scheduled puts your standing jobs above their suggestions; Email lists the sweep in reading order. The panel is draggable between 200&ndash;320pt and remembers its width, mode and collapsed state.</li>
+    <li><b>Keyboard shortcuts moved</b> — ⌘1&ndash;⌘4 now pick a sidebar mode (Projects, Home, Scheduled, Email), ⌘[ and ⌘] walk between them, ⌘0 collapses the panel to just the icons, and ⌘J jumps to any project. My issues and Running moved to ⌥⌘2 and ⌥⌘3. If ⌘2 or ⌘3 meant something else to you before, they now open Home and Scheduled.</li>
+    <li><b>Window minimum is now 1040&times;680</b> (was 900&times;560) to fit the new edge and leave the stage room to work.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.12/IndieGent-2.7.12.dmg"
+                sparkle:edSignature="+Vm2z1JLQanxJuEUA1BrYRn094M0M5jjRVLbLfq8FhMrTs1orvT8ip6uEeAu/k4rpfTOHwKvPrMQpqhmo9kTCQ=="
+                length="6834352"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.11</title>
             <pubDate>Thu, 27 Aug 2026 08:03:52 +0000</pubDate>
             <sparkle:version>30</sparkle:version>

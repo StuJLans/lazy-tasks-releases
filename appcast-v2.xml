@@ -3,6 +3,31 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.13</title>
+            <pubDate>Fri, 28 Aug 2026 06:07:29 +0000</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>2.7.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.13</h2>
+<p><b>Clerk investigates before replying.</b> When a mail needs facts nobody has on hand, Clerk now files an issue, dispatches a read-only session to go find the answer, and comes back with a drafted reply for your yes — nothing goes out until you say so.</p>
+<p><b>Two things to switch it on:</b> mint a key on the analytics dashboard's new Keys page (scope <code>read:*</code>) and paste it into <b>Settings › Clerk › Lookup hub</b>; and know the heartbeat driving all of this now defaults to 60 minutes and is a setting in that same screen (15/30/60/120), not the hardcoded 15 it used to be.</p>
+<ul>
+    <li><b>Clerk investigates before replying</b> — once a read-only session answers a question, Clerk writes the reply first, checks you haven't already handled it by hand, then asks: one line, the draft attached, <code>f</code> for the findings. Nothing sends without your explicit yes, for every reply an investigation produces &mdash; money anywhere in the thread is never promised or refunded without you saying so first. Say yes and the filed issue closes if that was the whole point of it, or stays open with a comment if the investigation turned up something worth fixing.</li>
+    <li><b>Clerk can investigate a question before replying</b> — when a mail needs facts the inbox doesn't have, Clerk files an issue, dispatches a read-only session against it, and waits, tracked in its own investigations record. A 20-minute watch (capped at 45) reports back the moment findings land, or tells you plainly if the session came back empty or timed out. A second question from the same correspondent while one's already running gets folded in, never a second session.</li>
+    <li><b>Read-only sessions: an answer on the issue, never a PR</b> — the app keeps an investigation on a short leash: headless, sonnet by default, a fixed look-don't-touch brief, and only <code>RIKU_API_KEY</code>/<code>RIKU_API_URL</code> instead of the project's whole <code>.env</code>. It ends at a findings write-up posted as a comment on the linked issue &mdash; never a branch, never a PR. Those two allowlisted secrets can now be set once, app-wide, in Settings › Clerk › Lookup hub, instead of pasted into every project's own <code>.env</code>.</li>
+    <li><b>Clerk can file GitHub issues from feedback mail</b> — genuine feedback or a bug report gets filed straight from the mailbox: Clerk picks the project, checks the repo's real labels, dedupes against open issues, and reports back with a receipt. One word closes a wrong call. It never sends anything to the person who wrote in.</li>
+    <li><b>Clerk heartbeat is now hourly by default, and a setting</b> — the inbox watch used to re-check every fifteen minutes, hardcoded. It's now an hour by default and configurable (15/30/60/120 minutes) in Settings › Clerk, taking effect next time Clerk starts.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.13/IndieGent-2.7.13.dmg"
+                sparkle:edSignature="A0dgVqKEcqtr+aqjmH6XO+XPcGrqW/9keoRbN47ZOS1bnxhaBOPzlEYkHiAjxHBi0wSgGG9zst18cZGgIUzNCQ=="
+                length="6904729"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.12</title>
             <pubDate>Thu, 27 Aug 2026 14:14:07 +0000</pubDate>
             <sparkle:version>31</sparkle:version>

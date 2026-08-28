@@ -3,6 +3,30 @@
     <channel>
         <title>IndieGent</title>
         <item>
+            <title>Version 2.7.14</title>
+            <pubDate>Fri, 28 Aug 2026 08:35:44 +0000</pubDate>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>2.7.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<h2>IndieGent 2.7.14</h2>
+<p><b>Agents get their own place in the sidebar.</b> Your running agents now have a tile of their own in the rail, and the IndieGent mark at the top is the Home button.</p>
+<p><b>Three keys changed, and only three:</b> <b>&#8984;1</b> Projects &middot; <b>&#8984;2</b> Agents (used to be Home) &middot; <b>&#8984;3</b> Scheduled &middot; <b>&#8984;4</b> Email &middot; <b>Home</b> is now the mark itself, or <b>&#8679;&#8984;H</b> &middot; <b>&#8997;&#8984;3</b> &quot;Running&quot; is gone &mdash; Running <i>is</i> &#8984;2 now. <b>&#8984;[</b> / <b>&#8984;]</b> still step across the four rail modes.</p>
+<ul>
+    <li><b>Agents get their own place in the sidebar</b> &mdash; &#8984;2 opens Agents, the robot in the rail: a panel listing what's wedged, what's in flight and what shipped today, over a board that puts the same three counts under a big "Agents" heading. Clicking a row selects that session on the board and scrolls it into view; a Dispatch button in the panel header opens Tank. The IndieGent mark at the top of the rail is now the Home button (&#8679;&#8984;H; &#8984;H stays macOS's Hide) &mdash; the house tile is gone, and Home is the morning page: today's date and open counts, your GitHub inbox, the ledger's field notes, what recently shipped. &#8984;1 Projects, &#8984;3 Scheduled, &#8984;4 Email, &#8997;&#8984;2 My issues, &#8984;0 and &#8984;[ / &#8984;] all work exactly as before. If you quit with Agents open, that's where you come back to.</li>
+    <li><b>Email and Clerk show up locked until Pontius is signed in</b> &mdash; without Pontius, the Email tile and the Clerk console used to disappear entirely; now they're always there, just locked, with a tooltip that says why. Click either one (or press &#8984;4 / &#8679;&#8984;T) and you'll land on a page explaining what Clerk does, showing what its console looks like, and offering Get Pontius &rarr; or I already have Pontius &mdash; which re-checks right there and unlocks both tiles in place if it finds one, no restart needed. If it's still not sorted, it names the specific reason. If you're already licensed and signed in, nothing changes.</li>
+    <li><b>Lookup tool is a setting; riku is a preset</b> &mdash; Settings &rsaquo; Clerk &rsaquo; "Lookup tool" replaces the old "Lookup hub" field: a command template (<code>{query}</code> substituted), a label, and env vars to pass through, empty by default. A "Use riku-company-analytics" preset button fills the fields for Stuart's own setup; an existing Riku hub key carries forward automatically on first launch &mdash; nothing to redo.</li>
+    <li><b>Findings comments redact email addresses</b> &mdash; a read-only investigation's posted findings comment now redacts email addresses before it ships, <code>jane@example.com</code> becomes <code>j***@example.com</code> (domain kept), wherever one shows up including inside a code span or a <code>mailto:</code> link. The local findings file Clerk drafts from is unaffected; only what leaves the machine is scrubbed.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/StuJLans/lazy-tasks-releases/releases/download/v2.7.14/IndieGent-2.7.14.dmg"
+                sparkle:edSignature="Kc/+XNE5yD4buKs8mrR8yyddB9XPryqCZmw6uZvMPY8i8GJBDRBtATCZXj8Kt8z67NMUGkQzZ8sZfeAEWAcdDA=="
+                length="7057933"
+                type="application/octet-stream"
+            />
+        </item>
+        <item>
             <title>Version 2.7.13</title>
             <pubDate>Fri, 28 Aug 2026 06:07:29 +0000</pubDate>
             <sparkle:version>32</sparkle:version>
